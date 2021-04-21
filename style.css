@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+    margin:0;
+}
+#small{
+    font-size: 10;
+}
+#large{
+    font-size: 32;
+}
+#medium{
+    font-size: 22;
+}
+#spacer{
+    height: 50;
+}
+#spacerw{
+    width: 20;
+}
+.homepage{
+    padding: 100px;
+    height: max-content;
+    background-color: #323544;
+    color: cornflowerblue;
+}
+.skillpage { 
+    padding: 100;
+    height: max-content;
+    overflow:hidden;
+    background-color: #252734;
+}
+#one{
+    padding: 100;
+    padding-bottom: 155;
+    color: white;
+    float: left;
+    width: max-content;
+}
+#two{
+    position: relative;
+    left: -150;
+    color: white;
+    padding: 100;
+    width: max-content;
+    float: right;
+}
+.pr{
+    height: max-content;
+    background-color: #323544;
+}
+.projects{
+    position: relative;
+    top: -170px;
+    padding-left: 100;
+    padding-right: 100;
+    justify-content: space-around;
+}
+.projects::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#btn{
+    font-size: 25;
+    height: max-content;
+    width: max-content;
+    border: 2px solid blanchedalmond;
+    padding: 20px;
+    color: wheat;
+    text-decoration: none;
+}
+#btn:hover{
+    transition: ease-in-out 0.06s;
+    color: black;
+    background-color: wheat;
+}
+.item{
+    line-height: 300px;
+    text-align: center;
+    border-radius: 25px;
+    height: 300px;
+    margin: 15px;
+    font-size: 32;
+    width: 250px;
+    background-color: #91939e;
+    float: left;
+}
+.item:hover{
+    background-color: wheat;
+    color: black;
+    transition: ease-in-out 0.06s;
+    cursor: pointer;
+}
+.navbar{
+    color: wheat;
+    justify-content: space-between;
+    width: 100%;
+    height: max-content;
+    display: inline-flex;
+}
+.navbar span{
+    font-size: 25;
+    margin-left: 25px;
+}
+.intro{
+    justify-content: space-around;
+}
+.introitem{
+    margin: 15px;
+    float: left;
+    width: 25%;
+    padding-top: 250;
+    padding-bottom: 150;
+    align-items: center;
+    height: fit-content;
+}
+.intro::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#dash{
+    background-color: burlywood;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 5px;
+    width: 50px;
+}
+#txt{
+    font-size: 85;
+    color: wheat;
+}
+.icons span i{
+    font-size: 55;
+    margin:5px
+}
+.icons span i:hover{
+    color: white;
+    transition: ease-in-out 0.6s infinite;
+    cursor: pointer;
+}
+.navbar div span:hover{
+    color: white;
+    transition: ease-in-out 0.6s infinite;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1280px) {
+    #in{
+        margin-left: 22%;
+    }
+    #imge{
+        padding: 0;
+        margin-left: 27%;
+        display: block;
+    }
+    #two{
+        left: 0;
+        margin-left: 25%;
+    }
+    
+}
