@@ -9,3 +9,4 @@ I have tried to make it responsive and minimal
 
 Here is the front page of my Website
 
+![Optional Text](../master/src/ss1.png)
