@@ -131,11 +131,15 @@
     font-size: 85;
     color: wheat;
 }
-.icons span i{
+.icons a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.icons a i{
     font-size: 55;
     margin:5px
 }
-.icons span i:hover{
+.icons a i:hover{
     color: white;
     transition: ease-in-out 0.6s infinite;
     cursor: pointer;
@@ -145,6 +149,8 @@
     transition: ease-in-out 0.6s infinite;
     cursor: pointer;
 }
+
+/*responsiveness*/
 @media only screen and (max-width: 1280px) {
     #in{
         margin-left: 22%;
@@ -157,6 +163,12 @@
     #two{
         left: 0;
         margin-left: 25%;
+    }
+    .proj{
+        padding:0
+    }
+    .projects{
+        padding: 25;
     }
     
 }
