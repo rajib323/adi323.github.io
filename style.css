@@ -149,15 +149,23 @@
     transition: ease-in-out 0.6s infinite;
     cursor: pointer;
 }
-
+#imge img{
+    height: 50vh;
+    margin-top: -10vh;
+    border-radius: 15px;
+}
 /*responsiveness*/
 @media only screen and (max-width: 1280px) {
     #in{
         margin-left: 22%;
     }
-    #imge{
+    #imge img{
         padding: 0;
-        margin-left: 27%;
+        margin: 0;
+        height: auto;
+        margin-top: -180px;
+        border-radius: 15px;
+        width: 750px;
         display: block;
     }
     #two{
